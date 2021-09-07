@@ -8,8 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class SignUpProc {
-	
-	
+
 	public void signUpProc() {
 		try {
 			Stage primaryStage = new Stage();

@@ -1,7 +1,7 @@
 package signup;
 
-import common.cancel.LoginCancel;
-import common.cancel.LoginCancelImpl;
+import common.exit.Exit;
+import common.exit.ExitImpl;
 import javafx.scene.Parent;
 
 public class SignUpImpl implements SignUp{
@@ -13,7 +13,7 @@ public class SignUpImpl implements SignUp{
 	
 	@Override
 	public void signUpExit() {
-		LoginCancel lc = new LoginCancelImpl();
+		Exit lc = new ExitImpl();
 		lc.setRoot(root);
 		lc.windowClose();
 	}

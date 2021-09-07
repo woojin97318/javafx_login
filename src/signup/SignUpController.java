@@ -22,6 +22,7 @@ public class SignUpController implements Initializable{
 	public void signupBtn() {
 		
 	}
+	
 	public void exitBtn() {
 		su.setRoot(root);
 		su.signUpExit();

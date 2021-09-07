@@ -1,8 +1,8 @@
-package common.cancel;
+package common.exit;
 
 import javafx.scene.Parent;
 
-public interface LoginCancel {
+public interface Exit {
 	public void setRoot(Parent root);
 	public void windowClose();
 }

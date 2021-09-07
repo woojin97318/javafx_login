@@ -10,7 +10,8 @@ import signin.SignInImpl;
 
 public class MainController implements Initializable{
 	Parent root;
-	SignIn si; 
+	SignIn si;
+	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		si = new SignInImpl();
@@ -27,13 +28,10 @@ public class MainController implements Initializable{
 	public void signupBtn() {
 		System.out.println("회원가입");
 		si.signUpProc();
-
 	}
 	
 	public void exitBtn() {
 		si.setRoot(root);
 		si.exitProc();
-
 	}
-
 }

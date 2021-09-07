@@ -1,8 +1,7 @@
 package signin;
 
-
-import common.cancel.LoginCancel;
-import common.cancel.LoginCancelImpl;
+import common.exit.Exit;
+import common.exit.ExitImpl;
 import javafx.scene.Parent;
 import signup.SignUpProc;
 
@@ -21,7 +20,7 @@ public class SignInImpl implements SignIn{
 
 	@Override
 	public void exitProc() {
-		LoginCancel lc = new LoginCancelImpl();
+		Exit lc = new ExitImpl();
 		lc.setRoot(root);
 		lc.windowClose();
 	}
