@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="signup.SignUpController">
    <top>
       <AnchorPane prefHeight="78.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
@@ -32,7 +32,7 @@
       <HBox alignment="CENTER" prefHeight="71.0" prefWidth="600.0" spacing="50.0" BorderPane.alignment="CENTER">
          <children>
             <Button mnemonicParsing="false" onAction="#signupBtn" prefWidth="100.0" text="회원가입" />
-            <Button mnemonicParsing="false" onAction="#exitBtn" prefWidth="100.0" text="취소" />
+            <Button mnemonicParsing="false" onAction="#exitBtn" prefWidth="100.0" text="종료" />
          </children>
       </HBox>
    </bottom>
