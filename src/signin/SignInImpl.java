@@ -3,7 +3,6 @@ package signin;
 import common.exit.Exit;
 import common.exit.ExitImpl;
 import javafx.scene.Parent;
-import signup.SignUpProc;
 
 public class SignInImpl implements SignIn{
 	Parent root;
@@ -14,12 +13,14 @@ public class SignInImpl implements SignIn{
 	
 	@Override
 	public void signUpProc() {
+		// 회원가입 창 이동
 		SignUpProc sup = new SignUpProc();
 		sup.signUpProc();
 	}
 
 	@Override
 	public void exitProc() {
+		// 창 닫기
 		Exit lc = new ExitImpl();
 		lc.setRoot(root);
 		lc.windowClose();
@@ -27,7 +28,7 @@ public class SignInImpl implements SignIn{
 
 	@Override
 	public void loginProc() {
-
+		// 로그인 버튼 클릭
 	}
 
 }
