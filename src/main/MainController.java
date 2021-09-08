@@ -22,11 +22,10 @@ public class MainController implements Initializable{
 	}
 	
 	public void loginBtn() {
-		System.out.println("로그인");
+		si.loginProc(root);
 	}
 	
 	public void signupBtn() {
-		System.out.println("회원가입");
 		si.signUpProc();
 	}
 	
